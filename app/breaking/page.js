@@ -15,7 +15,7 @@ export default function Page() {
   useEffect(() => {});
   return (
     <div className={styles.component}>
-      <div>BREAKING</div>
+      <div>BREAKING!</div>
       <div>
         <h1>{number}</h1>
         <button onClick={onIncrease}>+1</button>
